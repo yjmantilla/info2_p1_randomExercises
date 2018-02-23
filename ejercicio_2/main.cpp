@@ -15,4 +15,6 @@ int main()
 	if(number%2==0){cout<<"El numero"<<number<<"es par"<<endl;}
 	else{cout<<"El numero"<<number<<"es impar"<<endl;}
 
+	return 0;
+
 }
