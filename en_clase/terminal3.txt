@@ -32,4 +32,291 @@ no hay cambios agregados al commit (use «git add» o «git commit -a»)
 salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ git add --all
 salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ gedit terminal3.txt
  
+(gedit:3305): Gtk-WARNING **: gtk_widget_size_allocate(): attempt to allocate widget with width -30 and height 32
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ rm exec
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ echo con esto quitamos el ejecutable
+con esto quitamos el ejecutable
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ g++ main.cpp -o exec.out
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ echo le estamos dando una extension al archivo
+le estamos dando una extension al archivo
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ cd ..
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ echo con esto nos devolvemos a la carpeta anterior
+con esto nos devolvemos a la carpeta anterior
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ ls
+ejercicio_1  README.md  terminal1.txt  terminal2.txt
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ echo ls da la lista del directorio actual
+ls da la lista del directorio actual
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ gedit .gitignore
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ cd ejercicio_1
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ ls
+exec.out  main.cpp  terminal3.txt
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ git status
+En la rama master
+Su rama está actualizada con «origin/master».
+
+Cambios para hacer commit:
+  (use «git reset HEAD <archivo>...» para sacar del stage)
+
+	nuevo archivo: ../.Rhistory
+	modificado:    ../README.md
+	nuevo archivo: exec
+	nuevo archivo: main.cpp
+	nuevo archivo: ../terminal1.txt
+	nuevo archivo: ../terminal2.txt
+
+Cambios no preparados para el commit:
+  (use «git add/rm <archivo>...» para actualizar lo que se confirmará)
+  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
+
+	modificado:    ../.gitignore
+	borrado:       exec
+	modificado:    ../terminal1.txt
+
+Archivos sin seguimiento:
+  (use «git add <archivo>...» para incluir en lo que se ha de confirmar)
+
+	terminal3.txt
+
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ git add --all
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ git status
+En la rama master
+Su rama está actualizada con «origin/master».
+
+Cambios para hacer commit:
+  (use «git reset HEAD <archivo>...» para sacar del stage)
+
+	nuevo archivo: ../.Rhistory
+	modificado:    ../.gitignore
+	modificado:    ../README.md
+	nuevo archivo: main.cpp
+	nuevo archivo: terminal3.txt
+	nuevo archivo: ../terminal1.txt
+	nuevo archivo: ../terminal2.txt
+
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ git commit -m "primer hola mundo con c++"
+[master 8071bc5] primer hola mundo con c++
+ 7 files changed, 141 insertions(+), 1 deletion(-)
+ create mode 100644 .Rhistory
+ create mode 100644 ejercicio_1/main.cpp
+ create mode 100644 ejercicio_1/terminal3.txt
+ create mode 100644 terminal1.txt
+ create mode 100644 terminal2.txt
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ echo ahh era g++ no c++
+ahh era g++ no c++
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ rm .Rhistory
+rm: no se puede borrar '.Rhistory': No existe el archivo o el directorio
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ cd ..
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ rm .Rhistory
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ git status
+En la rama master
+Su rama está delante de «origin/master» para 1 commit.
+  (use «git push» para publicar sus commits locales)
+
+Cambios no preparados para el commit:
+  (use «git add/rm <archivo>...» para actualizar lo que se confirmará)
+  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
+
+	borrado:       .Rhistory
+
+no hay cambios agregados al commit (use «git add» o «git commit -a»)
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ git add --all
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ git status
+En la rama master
+Su rama está delante de «origin/master» para 1 commit.
+  (use «git push» para publicar sus commits locales)
+
+Cambios para hacer commit:
+  (use «git reset HEAD <archivo>...» para sacar del stage)
+
+	borrado:       .Rhistory
+
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ git commit -m "primer hola mundo con g++"
+[master 41b713a] primer hola mundo con g++
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 .Rhistory
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ git push
+Username for 'https://github.com': yjmantilla@gmail.com
+Password for 'https://yjmantilla@gmail.com@github.com': 
+Counting objects: 12, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (12/12), 2.73 KiB | 2.73 MiB/s, done.
+Total 12 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/yjmantilla/practica_1.git
+   ea41892..41b713a  master -> master
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ git status
+En la rama master
+Su rama está actualizada con «origin/master».
+
+nothing to commit, working tree clean
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ git status
+En la rama master
+Su rama está actualizada con «origin/master».
+
+Cambios no preparados para el commit:
+  (use «git add/rm <archivo>...» para actualizar lo que se confirmará)
+  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
+
+	borrado:       ejercicio_1/main.cpp
+	borrado:       ejercicio_1/terminal3.txt
+
+Archivos sin seguimiento:
+  (use «git add <archivo>...» para incluir en lo que se ha de confirmar)
+
+	en_clase/
+
+no hay cambios agregados al commit (use «git add» o «git commit -a»)
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ git add --all
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ git status
+En la rama master
+Su rama está actualizada con «origin/master».
+
+Cambios para hacer commit:
+  (use «git reset HEAD <archivo>...» para sacar del stage)
+
+	renombrado:    ejercicio_1/main.cpp -> en_clase/main.cpp
+	renombrado:    ejercicio_1/terminal3.txt -> en_clase/terminal3.txt
+
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ git add en_clase
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ git status
+En la rama master
+Su rama está actualizada con «origin/master».
+
+Cambios para hacer commit:
+  (use «git reset HEAD <archivo>...» para sacar del stage)
+
+	renombrado:    ejercicio_1/main.cpp -> en_clase/main.cpp
+	renombrado:    ejercicio_1/terminal3.txt -> en_clase/terminal3.txt
+
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ git commit
+Aborting commit due to empty commit message.
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ git commit -m "organizando mejor el directorio"
+[master 3951a4c] organizando mejor el directorio
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ rename {ejercicio_1 => en_clase}/main.cpp (100%)
+ rename {ejercicio_1 => en_clase}/terminal3.txt (100%)
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ git push
+Username for 'https://github.com': yjmantilla@gmail.com
+Password for 'https://yjmantilla@gmail.com@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 242 bytes | 242.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/yjmantilla/practica_1.git
+   41b713a..3951a4c  master -> master
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ cd ejercicio_2
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ gedit main.cpp
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ g++ main.cpp -o exec.out
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ ./exec.out
+Inserte el numero
+4
+El numero que escribio es:4
+El numero4es parsalasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ gedit main.cpp
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ git status
+En la rama master
+Su rama está actualizada con «origin/master».
+
+Archivos sin seguimiento:
+  (use «git add <archivo>...» para incluir en lo que se ha de confirmar)
+
+	./
+
+no se ha agregado nada al commit pero existen archivos sin seguimiento (use «git add» para darle seguimiento)
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ git add -all
+error: did you mean `--all` (with two dashes ?)
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ git add --all
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ git status
+En la rama master
+Su rama está actualizada con «origin/master».
+
+Cambios para hacer commit:
+  (use «git reset HEAD <archivo>...» para sacar del stage)
+
+	nuevo archivo: main.cpp
+
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ git commit -m "se agrega el ejercicio 2"
+[master 7f297d1] se agrega el ejercicio 2
+ 1 file changed, 18 insertions(+)
+ create mode 100644 ejercicio_2/main.cpp
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ git push
+Username for 'https://github.com': yjmantilla@gmail.com
+Password for 'https://yjmantilla@gmail.com@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 527 bytes | 527.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/yjmantilla/practica_1.git
+   3951a4c..7f297d1  master -> master
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ gedit main.cpp
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ git add --all
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ git status
+En la rama master
+Su rama está actualizada con «origin/master».
+
+Cambios para hacer commit:
+  (use «git reset HEAD <archivo>...» para sacar del stage)
+
+	modificado:    main.cpp
+
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ git commit -m "se agrego el return 0 al programa"
+[master 9c9e3cd] se agrego el return 0 al programa
+ 1 file changed, 2 insertions(+)
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ git push
+Username for 'https://github.com': yjmantilla@gmail.com
+Password for 'https://yjmantilla@gmail.com@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 354 bytes | 354.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/yjmantilla/practica_1.git
+   7f297d1..9c9e3cd  master -> master
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ git status
+En la rama master
+Su rama está actualizada con «origin/master».
+
+Cambios no preparados para el commit:
+  (use «git add/rm <archivo>...» para actualizar lo que se confirmará)
+  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
+
+	borrado:       ../terminal1.txt
+	borrado:       ../terminal2.txt
+
+Archivos sin seguimiento:
+  (use «git add <archivo>...» para incluir en lo que se ha de confirmar)
+
+	../en_clase/terminal1.txt
+	../en_clase/terminal2.txt
+
+no hay cambios agregados al commit (use «git add» o «git commit -a»)
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ git add --all
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ git commit -m "organizacion del directorio"
+[master c126be7] organizacion del directorio
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ rename terminal1.txt => en_clase/terminal1.txt (100%)
+ rename terminal2.txt => en_clase/terminal2.txt (100%)
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ git push
+Username for 'https://github.com': yjmantilla@gmail.com+}
+Password for 'https://yjmantilla@gmail.com+}@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/yjmantilla/practica_1.git/'
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ git push
+Username for 'https://github.com': yjmantilla@gmail.com
+Password for 'https://yjmantilla@gmail.com@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 384 bytes | 384.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/yjmantilla/practica_1.git
+   9c9e3cd..c126be7  master -> master
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_2$ cd ..
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1$ 
 
