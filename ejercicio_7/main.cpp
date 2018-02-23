@@ -17,11 +17,11 @@ int main(){
 	N=0; sum=0;	
 	cout<<"Inserte el numero N hasta el que desea hacer la suma de los numeros naturales"<<endl;
 	cin>>N;
-	for(int i=1;i<=N;i++)
+	for(int i=0;i<=N;i++)
 		{
 			sum=sum+i;
 		}	
-	cout<<"La sumatoria desde 1 hasta "<<N<<" es "<<sum<<endl;
+	cout<<"La sumatoria desde 0 hasta "<<N<<" es "<<sum<<endl;
 	return sum;		
 }
 
