@@ -1,0 +1,25 @@
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ g++ main.cpp -o exec
+main.cpp: In function ‘int main()’:
+main.cpp:6:2: error: expected ‘;’ before ‘return’
+  return 0;
+  ^~~~~~
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ gedit main.cpp
+^C
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ g++ main.cpp -o exec
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ ^C
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ ./exec
+Hellow Worldsalasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ g++ es el compilador , con -o se crea el ejecutable
+g++: error: es: No existe el archivo o el directorio
+g++: error: el: No existe el archivo o el directorio
+g++: error: compilador: No existe el archivo o el directorio
+g++: error: ,: No existe el archivo o el directorio
+g++: error: con: No existe el archivo o el directorio
+g++: error: crea: No existe el archivo o el directorio
+g++: error: el: No existe el archivo o el directorio
+g++: error: ejecutable: No existe el archivo o el directorio
+g++: fatal error: no input files
+compilation terminated.
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ ./exec ejecuta el ejecutable exec
+Hellow Worldsalasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ ^C
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ 
+

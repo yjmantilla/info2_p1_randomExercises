@@ -1,0 +1,35 @@
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ gedit main.cpp
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ echo con esto editamos el main
+con esto editamos el main
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ g++ -o exec
+g++: fatal error: no input files
+compilation terminated.
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ g++ main.cpp -o exec
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ echo con esto creamos el ejecutable
+con esto creamos el ejecutable
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ ./exec
+Hellow Worldsalasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ echo con esto ejecutamos exec
+con esto ejecutamos exec
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ git status
+En la rama master
+Su rama está actualizada con «origin/master».
+
+Cambios no preparados para el commit:
+  (use «git add <archivo>...» para actualizar lo que se confirmará)
+  (use «git checkout -- <archivo>...» para descartar cambios en el directorio de trabajo)
+
+	modificado:    ../README.md
+
+Archivos sin seguimiento:
+  (use «git add <archivo>...» para incluir en lo que se ha de confirmar)
+
+	../.Rhistory
+	./
+	../terminal1.txt
+	../terminal2.txt
+
+no hay cambios agregados al commit (use «git add» o «git commit -a»)
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ git add --all
+salasdrai@salasdrai:~/Escritorio/s3 vn lab infor/practica_1/ejercicio_1$ gedit terminal3.txt
+ 
+

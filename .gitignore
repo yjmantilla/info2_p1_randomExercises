@@ -9,6 +9,8 @@
 *.so
 *.dll
 *.dylib
+*.out
+#quitamos el archivo ejecutable
 
 # Qt-es
 
