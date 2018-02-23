@@ -25,7 +25,7 @@ int main()
 	cout<<"Inserte el numero del que desea conocer su tabla de multiplicar:"<<endl;
 	cin>>num;
 	
-	for(i=1;i<=N;i++)
+	for(int i=1;i<=N;i++)
 		{
 			cout<<i<<"x"<<num<<"="<<i*num;
 		}
