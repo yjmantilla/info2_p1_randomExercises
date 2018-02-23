@@ -27,7 +27,7 @@ int main()
 	
 	for(int i=1;i<=N;i++)
 		{
-			cout<<i<<"x"<<num<<"="<<i*num;
+			cout<<i<<"x"<<num<<"="<<i*num<<endl;
 		}
 	return 0;
 	
