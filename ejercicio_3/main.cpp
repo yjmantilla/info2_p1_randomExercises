@@ -10,13 +10,13 @@ El mayor es 7
 
 int main()
 {
-	float A,B; // numeros a comparar
-	A=0;B=0; //inicializacion de variables
+    float A=0,B=0; // numeros a comparar
 	cout<<"Ingrese a continuacion los numeros a comparar"<<endl;
 	cin>>A>>B;
 	
-	if(A>=B){cout<<"El mayor es "<<A<<endl;} //Con esta condicion es suficiente para saber cual es el mayor, incluso cuando son iguales.
-	else {cout <<"El mayor es "<<B<<endl;}
+    //Con la siguiente condicion es suficiente para saber cual es el mayor, incluso cuando son iguales.
+    if(A>=B){cout<<"El mayor es "<<A<<endl;}
+    else {cout <<"El mayor es "<<B<<endl;}
 	return 0;
 }
 
