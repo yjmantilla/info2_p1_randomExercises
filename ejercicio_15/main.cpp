@@ -9,17 +9,18 @@ using namespace std;
 
 int main()
 {
-	float num=0,sum=0;
+    float num=0,sum=0;//num es el numero que se ingresa continuamente, sum acumula la sumatoria
+    cout<<"A continuacion se le pediran numeros para hacer su sumatoria, ingrese cero para terminarla.";
+    cout<<endl<<endl<<"Inserte los numeros, presione enter en cada uno:"<<endl<<endl;
 
-	while(1)
+    while(1) //el while siempre se evalua y solo sale en el break
 		{
-			cout<<"Inserte numero:"<<endl;
+
 			cin>>num;
 			sum=num+sum;
-			cout<<"La suma es "<<sum<<endl;
-			if (num==0){break;}
-	
+            if (num==0){break;} //el break solo ocurre si el usuario ingresa 0
 		}
 
+    cout<<endl<<"El resultado de la sumatoria es "<<sum<<endl;
 	return sum;
 }
