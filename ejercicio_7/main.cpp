@@ -10,18 +10,17 @@ La sumatoria desde 0 hasta 5 es: 15
 using namespace std;
 
 int main(){
-	int N;
-	int sum;	
-	
-	//inicializacion
-	N=0; sum=0;	
-	cout<<"Inserte el numero N hasta el que desea hacer la suma de los numeros naturales"<<endl;
+    int N=0,sum=0;
+    //N: es el limite de la sumatoria.
+    //sum es la variable que acumula la suma
+
+    cout<<"Inserte el numero N hasta el que desea hacer la suma de los numeros naturales"<<endl;
 	cin>>N;
 	for(int i=0;i<=N;i++)
 		{
 			sum=sum+i;
 		}	
-	cout<<"La sumatoria desde 0 hasta "<<N<<" es "<<sum<<endl;
+    cout<<"La sumatoria desde 0 hasta "<<N<<" es: "<<sum<<endl;
 	return sum;		
 }
 
