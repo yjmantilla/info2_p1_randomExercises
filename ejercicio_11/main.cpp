@@ -21,9 +21,11 @@ using namespace std;
 
 int main()
 {	
-	float num;
+    float num;//numero del que se desea conocer la tabla de multiplicar
+
 	cout<<"Inserte el numero del que desea conocer su tabla de multiplicar:"<<endl;
 	cin>>num;
+    cout<<endl;
 	
 	for(int i=1;i<=N;i++)
 		{
