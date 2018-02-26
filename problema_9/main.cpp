@@ -80,8 +80,8 @@ int number_of_digits(int a)
 
 //esta funcion devuelve el enesimo digito contados de izquierda a derecha, por ejemplo en 1223 el primer digito es 1
 //basicamente usa el hecho de que al buscar el resto de un numero entre 10 se obtiene siempre el numero que esta en el lugar de las unidades
-//entonces el algoritmo primero reduce el numero dividiendolo entre 10 hasta que el digito de interes quede en las unidades
-//luego saca el resto entre 10
+//entonces el algoritmo primero reduce el numero dividiendolo entre la potencia de 10 correcta hasta que el digito de interes quede en las unidades
+//luego saca el resto entre 10 para obtener el digito
 int n_digit(int num, int n)
     {
         int digit=0;
