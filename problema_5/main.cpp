@@ -35,11 +35,12 @@ int main()
     //como itera en numeros impares se aumenta de 2 en 2
     for(int fila=1;fila<=N-2;fila=fila+2)
     {
-        //en cada fila se imprimen N-fila espacios repartidos en dos tandas, antes y despues de los asteriscos
+        //en la primera fila se imprimen N-fila espacios repartidos en dos tandas, antes y despues de los asteriscos
         //es por ello que se dividen en dos los espacios
+        //luego cuando se pasa a la siguiente se quita un espacio en cada tanda (es decir dos espacios en total)
         for(int espacios=(N-fila)/2;espacios>=1;espacios--){cout<<" ";}
 
-        //se imprimen tantos asteriscos como el numero "fila" en que nos encontremos (recordar que fila es siempre impar".
+        //se imprimen tantos asteriscos como el numero "fila" en que nos encontremos (recordar que fila es siempre impar).
         for(int asteriscos=1;asteriscos<=fila;asteriscos++){cout<<"*";}
 
         //se imprime la segunda tanda de espacios
